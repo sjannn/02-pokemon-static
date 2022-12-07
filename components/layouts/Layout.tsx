@@ -24,7 +24,7 @@ export const Layout: FC <Props> = ({ children, title }) => {
 
             <meta property="og:title" content={`Informacion sobre ${title}`} />
             <meta property="og:description" content={`Esta es una pagina con info sobre ${title}.`} />
-            <meta property="og:image" content={`${origin}/_next/image?url=%2Fimg%2Fbanner.png&w=256&q=75`}/>
+            <meta property="og:image" content={`${origin}/public/img/banner.png`}/>
         </Head>
 
         <Navbar />
